@@ -1,0 +1,24 @@
+{
+  "name": "meetup-backend",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon index.js"
+  },
+  "repository": {},
+  "author": "Emanuel Quimper",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "mongoose": "4.7.7",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
