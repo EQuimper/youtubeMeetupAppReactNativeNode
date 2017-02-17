@@ -7,6 +7,7 @@
 ## Videos
 
 - [Part: 1](https://youtu.be/qmNPpoVkY2Y)
+- [Part: 2](https://youtu.be/_Mb-Q_A9ofU)
 
 ## Features I want to Make
 
@@ -19,3 +20,7 @@
 ## Maybe
 
 - Add a chat with the team
+
+## My eslint packages
+
+https://www.npmjs.com/package/eslint-config-equimper
