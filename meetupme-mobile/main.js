@@ -32,6 +32,7 @@ class App extends React.Component {
         </View>
       )
     }
+
     return (
       <View style={styles.container}>
         <Text>MeetupME</Text>
