@@ -10,7 +10,7 @@
 
 - [Part: 1](https://youtu.be/qmNPpoVkY2Y)
 - [Part: 2](https://youtu.be/_Mb-Q_A9ofU)
-- [Part: 3](https://youtu.be/QHXPwKekQ0s)
+- [Part: 3](https://youtu.be/YTh3lZz-Vrg)
 
 ## Features I want to Make
 
