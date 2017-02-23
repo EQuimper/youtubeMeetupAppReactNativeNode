@@ -3,7 +3,7 @@
   "description": "An empty new project",
   "slug": "meetupme-mobile",
   "privacy": "public",
-  "sdkVersion": "13.0.0",
+  "sdkVersion": "14.0.0",
   "version": "1.0.0",
   "orientation": "portrait",
   "primaryColor": "#cccccc",

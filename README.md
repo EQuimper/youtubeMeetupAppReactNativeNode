@@ -3,11 +3,14 @@
 ## Links
 
 - [Exponent](https://getexponent.com/)
+- [Exponent Update for v14](https://blog.getexponent.com/exponent-sdk-v14-0-0-is-now-available-114def29f796#.n819ymu9i)
+- [Learning Flex-Box](http://flexboxfroggy.com/)
 
 ## Videos
 
 - [Part: 1](https://youtu.be/qmNPpoVkY2Y)
 - [Part: 2](https://youtu.be/_Mb-Q_A9ofU)
+- [Part: 3](https://youtu.be/QHXPwKekQ0s)
 
 ## Features I want to Make
 
