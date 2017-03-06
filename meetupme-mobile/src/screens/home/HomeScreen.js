@@ -1,19 +1,22 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
+import { connect } from 'react-redux';
 import { FontAwesome } from '@exponent/vector-icons';
-import { MeetupApi } from '../../../constants/api';
+
 import { LoadingScreen } from '../../commons';
 import { MyMeetupsList } from './components';
+
+import { fetchMyMeetups } from './actions';
 import Colors from '../../../constants/Colors';
 import styles from './styles/HomeScreen';
 
-const meetupApi = new MeetupApi();
-
+@connect(
+  state => ({
+    myMeetups: state.home.myMeetups
+  }),
+  { fetchMyMeetups }
+)
 class HomeScreen extends Component {
-  static defaultProps = {
-    meetupApi
-  }
-
   static navigationOptions = {
     header: {
       style: { backgroundColor: Colors.redColor }
@@ -29,20 +32,27 @@ class HomeScreen extends Component {
     }
   }
 
-  state = {
-    loading: false,
-    meetups: []
-  }
-
-  async componentDidMount() {
-    this.setState({ loading: true });
-    const meetups = await this.props.meetupApi.fetchGroupMeetups();
-    this.setState({ loading: false, meetups });
+  componentDidMount() {
+    this.props.fetchMyMeetups();
   }
 
   render() {
-    if (this.state.loading) {
+    console.log(this.props);
+    const {
+      myMeetups: {
+        isFetched,
+        data,
+        error
+      }
+    } = this.props;
+    if (!isFetched) {
       return <LoadingScreen />;
+    } else if (error.on) {
+      return (
+        <View>
+          <Text>{error.message}</Text>
+        </View>
+      );
     }
     return (
       <View style={styles.root}>
@@ -50,7 +60,7 @@ class HomeScreen extends Component {
           <Text>HomeScreen</Text>
         </View>
         <View style={styles.bottomContainer}>
-          <MyMeetupsList meetups={this.state.meetups} />
+          <MyMeetupsList meetups={data} />
         </View>
       </View>
     );
