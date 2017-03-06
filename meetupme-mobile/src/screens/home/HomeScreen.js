@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
 import { connect } from 'react-redux';
+import { Button, Icon } from 'native-base';
 import { FontAwesome } from '@exponent/vector-icons';
 
 import { LoadingScreen } from '../../commons';
@@ -18,8 +19,27 @@ import styles from './styles/HomeScreen';
 )
 class HomeScreen extends Component {
   static navigationOptions = {
-    header: {
-      style: { backgroundColor: Colors.redColor }
+    header: ({ navigate }) => {
+      const style = { backgroundColor: Colors.redColor };
+
+      const right = (
+        <View>
+          <Button
+            transparent
+            onPress={() => navigate('CreateMeetup')}
+          >
+            <Icon
+              name="md-add-circle"
+              style={{
+                fontSize: 30,
+                color: Colors.whiteColor
+              }}
+            />
+          </Button>
+        </View>
+      );
+
+      return { style, right };
     },
     tabBar: {
       icon: ({ tintColor }) => (
