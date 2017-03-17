@@ -6,6 +6,7 @@
 - [Exponent Update for v14](https://blog.getexponent.com/exponent-sdk-v14-0-0-is-now-available-114def29f796#.n819ymu9i)
 - [Learning Flex-Box](http://flexboxfroggy.com/)
 - [Learn Redux](https://egghead.io/courses/getting-started-with-redux)
+- [React-Native Elements](https://github.com/react-native-community/react-native-elements)
 
 ## Videos
 
