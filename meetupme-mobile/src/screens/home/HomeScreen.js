@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, TouchableOpacity } from 'react-native';
 import { connect } from 'react-redux';
 import { Button, Icon } from 'native-base';
-import { FontAwesome } from '@exponent/vector-icons';
+import { FontAwesome } from '@expo/vector-icons';
+import { MaterialIcons } from '@expo/vector-icons';
 
 import { LoadingScreen } from '../../commons';
 import { MyMeetupsList } from './components';
@@ -23,20 +24,13 @@ class HomeScreen extends Component {
       const style = { backgroundColor: Colors.redColor };
 
       const right = (
-        <View>
-          <Button
-            transparent
-            onPress={() => navigate('CreateMeetup')}
-          >
-            <Icon
-              name="md-add-circle"
-              style={{
-                fontSize: 30,
-                color: Colors.whiteColor
-              }}
-            />
-          </Button>
-        </View>
+        <TouchableOpacity style={styles.iconAdd} onPress={() => navigate('CreateMeetup')}>
+          <MaterialIcons
+            name="add-circle"
+            size={30}
+            color="#fff"
+          />
+        </TouchableOpacity>
       );
 
       return { style, right };

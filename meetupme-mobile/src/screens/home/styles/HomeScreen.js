@@ -13,6 +13,9 @@ const styles = EStyleSheet.create({
   },
   bottomContainer: {
     flex: 0.9
+  },
+  iconAdd: {
+    marginRight: '3%'
   }
 });
 
