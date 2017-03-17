@@ -32,3 +32,7 @@
 ## My eslint packages
 
 https://www.npmjs.com/package/eslint-config-equimper
+
+## My snippets packages
+
+https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux
