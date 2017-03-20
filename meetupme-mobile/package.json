@@ -11,22 +11,23 @@
   "dependencies": {
     "@expo/vector-icons": "~4.0.0",
     "axios": "^0.15.3",
-    "expo": "^14.0.0",
-    "moment": "^2.17.1",
-    "native-base": "^2.0.12",
+    "expo": "^15.0.2",
+    "moment": "^2.18.0",
     "react": "~15.4.0",
-    "react-native": "https://github.com/exponent/react-native/archive/sdk-14.0.0.tar.gz",
+    "react-native": "https://github.com/exponent/react-native/archive/sdk-15.0.0.tar.gz",
     "react-native-elements": "^0.10.0",
     "react-native-extended-stylesheet": "^0.3.1",
     "react-native-modal-datetime-picker": "^4.1.0",
     "react-navigation": "^1.0.0-beta.7",
     "react-redux": "^5.0.3",
     "redux": "^3.6.0",
-    "redux-promise-middleware": "^4.2.0"
+    "redux-form": "^6.5.0",
+    "redux-promise-middleware": "^4.2.0",
+    "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
-    "eslint-config-equimper": "^1.4.0",
-    "react-native-debugger-open": "^0.3.2",
+    "eslint-config-equimper": "^1.5.1",
+    "react-native-debugger-open": "^0.3.3",
     "redux-logger": "^2.8.2"
   }
 }

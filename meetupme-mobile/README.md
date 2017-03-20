@@ -15,3 +15,15 @@
 - Add moment
 - Create a meetup
 - See the result :)
+
+## Episode 8
+
+- Update Expo 14 -> 15
+- Update my eslint-config
+- Remove nativebase
+- Remove Components for AppIsLoading
+- Add redux-form
+- Create TextInput component
+- Remove group from the backend response on create
+
+- Issues about the nav https://github.com/react-community/react-navigation/issues/332

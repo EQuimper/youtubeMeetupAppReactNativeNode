@@ -1,9 +1,13 @@
 import { combineReducers } from 'redux';
+import { reducer as form } from 'redux-form';
 
 import {
-  HomeReducer
+  HomeReducer,
+  CreateMeetupReducer
 } from '../screens';
 
 export default combineReducers({
-  home: HomeReducer
+  home: HomeReducer,
+  createMeetup: CreateMeetupReducer,
+  form
 });
