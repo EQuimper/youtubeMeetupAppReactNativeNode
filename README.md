@@ -17,6 +17,7 @@
 - [Part: 5](https://youtu.be/kNkTQtRUH-M)
 - [Part: 6](https://youtu.be/Op9Re9GUPkY)
 - [Part: 7](https://youtu.be/jaV-WdErTaI)
+- [Part: 8](https://youtu.be/z9YDYViAGS0)
 
 ## Features I want to Make
 
