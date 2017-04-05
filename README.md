@@ -7,6 +7,7 @@
 - [Learning Flex-Box](http://flexboxfroggy.com/)
 - [Learn Redux](https://egghead.io/courses/getting-started-with-redux)
 - [React-Native Elements](https://github.com/react-native-community/react-native-elements)
+- [Styled-Components](https://github.com/styled-components/styled-components)
 
 ## Videos
 
