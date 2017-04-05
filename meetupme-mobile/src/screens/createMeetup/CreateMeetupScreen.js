@@ -13,7 +13,7 @@ import styles from './styles/CreateMeetupScreen';
 
 @connect(
   state => ({
-    meetup: state.createMeetup
+    meetup: state.createMeetup,
   }),
   { createMeetup }
 )
@@ -36,12 +36,12 @@ export default class CreateMeetupScreen extends Component {
       );
 
       return { style, titleStyle, left };
-    }
+    },
   }
 
   state = {
     isDateTimePickerVisible: false,
-    date: moment()
+    date: moment(),
   }
 
   _showDateTimePicker = () => this.setState({ isDateTimePickerVisible: true })
@@ -77,7 +77,7 @@ export default class CreateMeetupScreen extends Component {
 
   render() {
     const {
-      meetup
+      meetup,
     } = this.props;
     if (meetup.isLoading) {
       return (

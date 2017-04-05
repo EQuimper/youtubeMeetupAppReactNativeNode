@@ -3,19 +3,19 @@ import Colors from '../../constants/Colors';
 import {
   HomeScreen,
   NotificationsScreen,
-  ProfileScreen
+  ProfileScreen,
 } from '../screens';
 
 export default TabNavigator({
   Home: {
-    screen: HomeScreen
+    screen: HomeScreen,
   },
   Notifications: {
-    screen: NotificationsScreen
+    screen: NotificationsScreen,
   },
   ProfileScreen: {
-    screen: ProfileScreen
-  }
+    screen: ProfileScreen,
+  },
 }, {
   swipeEnabled: false,
   animationEnabled: false,
@@ -28,7 +28,7 @@ export default TabNavigator({
     pressColor: Colors.redColor,
     indicatorStyle: { backgroundColor: Colors.redColor },
     style: {
-      backgroundColor: Colors.whiteColor
-    }
-  }
+      backgroundColor: Colors.whiteColor,
+    },
+  },
 });

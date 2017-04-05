@@ -4,8 +4,8 @@ const styles = EStyleSheet.create({
   root: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center'
-  }
+    alignItems: 'center',
+  },
 });
 
 export default styles;

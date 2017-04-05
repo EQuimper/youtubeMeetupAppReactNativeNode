@@ -1,5 +1,5 @@
 import {
-  FETCH_MY_MEETUPS
+  FETCH_MY_MEETUPS,
 } from './actions';
 
 const INITIAL_STATE = {
@@ -8,9 +8,9 @@ const INITIAL_STATE = {
     isFetched: false,
     error: {
       on: false,
-      message: null
-    }
-  }
+      message: null,
+    },
+  },
 };
 
 export default (state = INITIAL_STATE, action) => {
@@ -24,9 +24,9 @@ export default (state = INITIAL_STATE, action) => {
           isFetched: true,
           error: {
             on: false,
-            message: null
-          }
-        }
+            message: null,
+          },
+        },
       };
     case `${FETCH_MY_MEETUPS}_REJECTED`:
       return {
@@ -35,9 +35,9 @@ export default (state = INITIAL_STATE, action) => {
           isFetched: true,
           error: {
             on: true,
-            message: 'Error when fetching my meetups'
-          }
-        }
+            message: 'Error when fetching my meetups',
+          },
+        },
       };
     default:
       return state;

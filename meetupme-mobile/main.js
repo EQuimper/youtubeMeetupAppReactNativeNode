@@ -13,7 +13,7 @@ EStyleSheet.build(Colors);
 
 class App extends React.Component {
   state = {
-    fontLoaded: false
+    fontLoaded: false,
   }
 
   componentDidMount() {

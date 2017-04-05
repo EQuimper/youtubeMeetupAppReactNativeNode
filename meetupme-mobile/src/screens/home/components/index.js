@@ -1,5 +1,5 @@
 import MyMeetupsList from './MyMeetupsList';
 
 export {
-  MyMeetupsList
+  MyMeetupsList,
 };

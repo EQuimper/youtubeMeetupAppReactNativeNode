@@ -3,5 +3,5 @@ import TextInputWithValidations from './TextInputWithValidations';
 
 export {
   LoadingScreen,
-  TextInputWithValidations
+  TextInputWithValidations,
 };

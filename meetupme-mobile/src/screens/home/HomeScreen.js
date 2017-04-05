@@ -12,7 +12,7 @@ import styles from './styles/HomeScreen';
 
 @connect(
   state => ({
-    myMeetups: state.home.myMeetups
+    myMeetups: state.home.myMeetups,
   }),
   { fetchMyMeetups }
 )
@@ -40,8 +40,8 @@ class HomeScreen extends Component {
           size={25}
           color={tintColor}
         />
-      )
-    }
+      ),
+    },
   }
 
   componentDidMount() {
@@ -54,8 +54,8 @@ class HomeScreen extends Component {
       myMeetups: {
         isFetched,
         data,
-        error
-      }
+        error,
+      },
     } = this.props;
     if (!isFetched) {
       return <LoadingScreen />;

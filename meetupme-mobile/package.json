@@ -6,28 +6,32 @@
   "private": true,
   "main": "main.js",
   "scripts": {
-    "postinstall": "rndebugger-open"
+    "postinstall": "rndebugger-open",
+    "lint": "eslint src main.js",
+    "lint:fix": "eslint --fix src main.js"
   },
   "dependencies": {
     "@expo/vector-icons": "~4.0.0",
-    "axios": "^0.15.3",
-    "expo": "^15.0.2",
-    "moment": "^2.18.0",
+    "axios": "^0.16.0",
+    "expo": "^15.1.3",
+    "moment": "^2.18.1",
     "react": "~15.4.0",
     "react-native": "https://github.com/exponent/react-native/archive/sdk-15.0.0.tar.gz",
-    "react-native-elements": "^0.10.0",
+    "react-native-elements": "^0.10.3",
     "react-native-extended-stylesheet": "^0.3.1",
-    "react-native-modal-datetime-picker": "^4.1.0",
+    "react-native-modal-datetime-picker": "^4.2.1",
     "react-navigation": "^1.0.0-beta.7",
     "react-redux": "^5.0.3",
     "redux": "^3.6.0",
-    "redux-form": "^6.5.0",
+    "redux-form": "^6.6.1",
     "redux-promise-middleware": "^4.2.0",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "styled-components": "^1.4.4"
   },
   "devDependencies": {
-    "eslint-config-equimper": "^1.5.1",
-    "react-native-debugger-open": "^0.3.3",
-    "redux-logger": "^2.8.2"
+    "eslint": "^3.19.0",
+    "eslint-config-equimper": "^1.6.2",
+    "react-native-debugger-open": "^0.3.4",
+    "redux-logger": "^3.0.1"
   }
 }

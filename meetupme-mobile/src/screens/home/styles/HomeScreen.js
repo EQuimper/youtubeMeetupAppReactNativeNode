@@ -4,19 +4,19 @@ const styles = EStyleSheet.create({
   root: {
     flex: 1,
     justifyContent: 'center',
-    backgroundColor: '$blackBlueColor'
+    backgroundColor: '$blackBlueColor',
   },
   topContainer: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
   },
   bottomContainer: {
-    flex: 0.9
+    flex: 0.9,
   },
   iconAdd: {
-    marginRight: '3%'
-  }
+    marginRight: '3%',
+  },
 });
 
 export default styles;

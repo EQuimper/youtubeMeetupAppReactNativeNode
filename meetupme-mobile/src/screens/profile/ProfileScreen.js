@@ -6,7 +6,7 @@ import Colors from '../../../constants/Colors';
 class ProfileScreen extends Component {
   static navigationOptions = {
     header: {
-      style: { backgroundColor: Colors.redColor }
+      style: { backgroundColor: Colors.redColor },
     },
     tabBar: {
       icon: ({ tintColor }) => (
@@ -15,8 +15,8 @@ class ProfileScreen extends Component {
           size={25}
           color={tintColor}
         />
-      )
-    }
+      ),
+    },
   }
 
   render() {

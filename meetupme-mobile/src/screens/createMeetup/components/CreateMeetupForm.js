@@ -14,7 +14,7 @@ const CreateMeetupForm = ({
   showDateTimePicker,
   handleSubmit,
   invalid,
-  submitting
+  submitting,
 }) => (
   <View style={styles.container}>
     <Field
@@ -55,5 +55,5 @@ const CreateMeetupForm = ({
 
 export default reduxForm({
   form: 'createMeetup',
-  validate: createMeetupValidations
+  validate: createMeetupValidations,
 })(CreateMeetupForm);

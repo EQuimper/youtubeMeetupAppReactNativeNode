@@ -3,5 +3,5 @@ import CreateMeetupReducer from './reducer';
 
 export {
   CreateMeetupScreen,
-  CreateMeetupReducer
+  CreateMeetupReducer,
 };

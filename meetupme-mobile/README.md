@@ -27,3 +27,12 @@
 - Remove group from the backend response on create
 
 - Issues about the nav https://github.com/react-community/react-navigation/issues/332
+
+## Episode 9
+
+- Update Deps
+- Update my eslint config
+- Show how to auto fix in vsc and terminal
+- Make route block if no auth
+- Talk about design
+- Create the Auth page

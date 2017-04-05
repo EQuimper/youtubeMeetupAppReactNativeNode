@@ -3,5 +3,5 @@ import HomeReducer from './reducer';
 
 export {
   HomeScreen,
-  HomeReducer
+  HomeReducer,
 };
