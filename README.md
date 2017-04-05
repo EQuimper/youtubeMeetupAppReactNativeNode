@@ -23,6 +23,7 @@
 - [Part: 6](https://youtu.be/Op9Re9GUPkY)
 - [Part: 7](https://youtu.be/jaV-WdErTaI)
 - [Part: 8](https://youtu.be/z9YDYViAGS0)
+- [Part: 9](https://youtu.be/vBic8O-c1oc)
 
 ## Features I want to Make
 
