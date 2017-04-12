@@ -3,23 +3,30 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development nodemon index.js"
+    "dev": "NODE_ENV=development nodemon dist/index.js",
+    "build:watch": "babel -w --out-dir=dist ./src",
+    "clean": "rimraf dist",
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix src"
   },
   "repository": {},
   "author": "Emanuel Quimper",
   "license": "MIT",
   "dependencies": {
-    "babel-polyfill": "^6.22.0",
-    "babel-preset-es2015": "^6.22.0",
-    "babel-preset-stage-0": "^6.22.0",
-    "babel-register": "^6.22.0",
     "body-parser": "^1.16.0",
     "express": "^4.14.1",
-    "mongoose": "4.7.7",
-    "morgan": "^1.7.0"
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.9.4",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
   },
   "devDependencies": {
-    "eslint-config-equimper": "^1.4.0",
-    "nodemon": "^1.11.0"
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.3.3",
+    "eslint": "^3.19.0",
+    "eslint-config-equimper": "^1.6.2",
+    "nodemon": "^1.11.0",
+    "rimraf": "^2.6.1"
   }
 }

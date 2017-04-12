@@ -3,5 +3,5 @@ import MeetupRoutes from './routes';
 
 export {
   MeetupRoutes,
-  Meetup
+  Meetup,
 };

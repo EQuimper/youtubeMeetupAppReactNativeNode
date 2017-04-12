@@ -5,20 +5,20 @@ const GroupSchema = new Schema({
     type: String,
     required: true,
     unique: true,
-    minLength: [5, 'Name must be 5 characters long']
+    minLength: [5, 'Name must be 5 characters long'],
   },
   description: {
     type: String,
     required: true,
-    minLength: [10, 'Description must be 10 characters long']
+    minLength: [10, 'Description must be 10 characters long'],
   },
   category: {
-    type: String
+    type: String,
   },
   meetups: [{
     type: Schema.Types.ObjectId,
-    ref: 'Meetup'
-  }]
+    ref: 'Meetup',
+  }],
 }, { timestamps: true });
 
 /**

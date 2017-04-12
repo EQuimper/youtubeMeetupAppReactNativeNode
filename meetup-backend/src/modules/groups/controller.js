@@ -5,7 +5,7 @@ export const createGroup = async (req, res) => {
   const {
     name,
     description,
-    category
+    // category,
   } = req.body;
 
   if (!name) {
@@ -23,7 +23,7 @@ export const createGroup = async (req, res) => {
   } else if (description.length < 10) {
     return res.status(400).json({
       error: true,
-      message: 'Description must have 10 characters long!'
+      message: 'Description must have 10 characters long!',
     });
   }
 
@@ -55,7 +55,7 @@ export const createGroupMeetup = async (req, res) => {
   } else if (description.length < 10) {
     return res.status(400).json({
       error: true,
-      message: 'Description must have 10 characters long!'
+      message: 'Description must have 10 characters long!',
     });
   }
 
@@ -89,7 +89,7 @@ export const getGroupMeetups = async (req, res) => {
   try {
     return res.status(200).json({
       error: false,
-      meetups: await Meetup.find({ group: groupId }).populate('group', 'name')
+      meetups: await Meetup.find({ group: groupId }).populate('group', 'name'),
     });
   } catch (e) {
     return res.status(400).json({ error: true, message: 'Cannot fetch meetup' });
