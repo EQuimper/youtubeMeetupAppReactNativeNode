@@ -26,6 +26,11 @@
 - [Part: 9](https://youtu.be/vBic8O-c1oc)
 - [Part: 10](https://youtu.be/FFD4lKZCHS0)
 
+## Authentication
+
+- [Passport](http://passportjs.org/)
+- [Passport-JWT](https://www.npmjs.com/package/passport-jwt)
+
 ## Features I want to Make
 
 - Geolocalisation
