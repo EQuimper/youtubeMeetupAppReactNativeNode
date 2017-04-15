@@ -25,6 +25,7 @@
 - [Part: 8](https://youtu.be/z9YDYViAGS0)
 - [Part: 9](https://youtu.be/vBic8O-c1oc)
 - [Part: 10](https://youtu.be/FFD4lKZCHS0)
+- [Part: 11](https://youtu.be/KZWLd7OwQF8)
 
 ## Authentication
 
