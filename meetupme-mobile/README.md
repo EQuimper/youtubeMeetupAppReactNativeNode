@@ -36,3 +36,10 @@
 - Make route block if no auth
 - Talk about design
 - Create the Auth page
+
+## Episode 12
+
+- Update Exp, React-Navigation, Remove debug
+- Create Facebook app
+- Update global exp
+- Login success to facebook in mobile

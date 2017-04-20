@@ -22,7 +22,7 @@ export default {
     width: '70%',
   },
   buttonAuth: {
-    fontSize: 16,
+    fontSize: 14,
     color: Colors.whiteColor,
     fontFamily: 'montserrat',
   },

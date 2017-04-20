@@ -3,7 +3,7 @@
   "description": "An empty new project",
   "slug": "meetupme-mobile",
   "privacy": "public",
-  "sdkVersion": "15.0.0",
+  "sdkVersion": "16.0.0",
   "version": "1.0.0",
   "orientation": "portrait",
   "primaryColor": "#cccccc",
@@ -13,7 +13,10 @@
     "hideExponentText": false
   },
   "packagerOpts": {
-    "assetExts": ["ttf", "mp4"]
+    "assetExts": [
+      "ttf",
+      "mp4"
+    ]
   },
   "ios": {
     "supportsTablet": true
