@@ -6,12 +6,14 @@
 
 ## Links
 
-- [Exponent](https://getexponent.com/)
-- [Exponent Update for v14](https://blog.getexponent.com/exponent-sdk-v14-0-0-is-now-available-114def29f796#.n819ymu9i)
+- [Expo](https://docs.expo.io)
+- [Expo Update for v14](https://blog.getexponent.com/exponent-sdk-v14-0-0-is-now-available-114def29f796#.n819ymu9i)
+- [Expo Update for v16](https://blog.expo.io/expo-sdk-v16-0-0-is-now-available-2151d555a580)
 - [Learning Flex-Box](http://flexboxfroggy.com/)
 - [Learn Redux](https://egghead.io/courses/getting-started-with-redux)
 - [React-Native Elements](https://github.com/react-native-community/react-native-elements)
 - [Styled-Components](https://github.com/styled-components/styled-components)
+- [Facebook Dev](https://developers.facebook.com/)
 
 ## Videos
 
@@ -26,6 +28,7 @@
 - [Part: 9](https://youtu.be/vBic8O-c1oc)
 - [Part: 10](https://youtu.be/FFD4lKZCHS0)
 - [Part: 11](https://youtu.be/KZWLd7OwQF8)
+- [Part: 12](https://youtu.be/64Tmae3FtXg)
 
 ## Authentication
 
