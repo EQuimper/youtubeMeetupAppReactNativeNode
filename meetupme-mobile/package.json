@@ -6,7 +6,6 @@
   "private": true,
   "main": "main.js",
   "scripts": {
-    "postinstall": "rndebugger-open",
     "lint": "eslint src main.js",
     "lint:fix": "eslint --fix src main.js"
   },
@@ -17,21 +16,20 @@
     "moment": "^2.18.1",
     "react": "16.0.0-alpha.6",
     "react-native": "https://github.com/exponent/react-native/archive/sdk-16.0.0.tar.gz",
-    "react-native-elements": "^0.10.3",
-    "react-native-extended-stylesheet": "^0.3.1",
+    "react-native-elements": "^0.11.2",
+    "react-native-extended-stylesheet": "^0.4.0",
     "react-native-modal-datetime-picker": "^4.2.1",
-    "react-navigation": "^1.0.0-beta.8",
+    "react-navigation": "^1.0.0-beta.9",
     "react-redux": "^5.0.3",
     "redux": "^3.6.0",
     "redux-form": "^6.6.1",
     "redux-promise-middleware": "^4.2.0",
     "redux-thunk": "^2.2.0",
-    "styled-components": "^1.4.4"
+    "styled-components": "^1.4.6"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
-    "eslint-config-equimper": "^1.6.2",
-    "react-native-debugger-open": "^0.3.4",
+    "eslint-config-equimper": "^1.6.4",
     "redux-logger": "^3.0.1"
   }
 }

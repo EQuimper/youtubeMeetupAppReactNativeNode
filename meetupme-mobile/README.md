@@ -43,3 +43,10 @@
 - Create Facebook app
 - Update global exp
 - Login success to facebook in mobile
+
+## Episode 13
+
+- Update deps
+- Remove Debugger open
+- Create google app
+- Setup login google

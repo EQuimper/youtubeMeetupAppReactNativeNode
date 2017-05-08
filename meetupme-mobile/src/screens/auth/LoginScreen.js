@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Facebook } from 'expo';
+import { Facebook, Google } from 'expo';
 import { Text, Alert } from 'react-native';
 import styled from 'styled-components/native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
@@ -7,6 +7,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import Fonts from '../../../constants/Fonts';
 import Colors from '../../../constants/Colors';
 import fbConfig from '../../../constants/fbConfig';
+import googleConfig from '../../../constants/googleConfig';
 
 const FlexContainer = styled.View`
   flex: 1;
@@ -59,6 +60,23 @@ export default class LoginScreen extends Component {
         `https://graph.facebook.com/me?access_token=${token}`,
       );
       Alert.alert('Logged In!', `Hi ${(await resp.json()).name}`);
+    }
+  }
+
+  async _logInWithGoogle() {
+    try {
+      const result = await Google.logInAsync({
+        iosClientId: googleConfig.CLIENT_ID_IOS,
+        scopes: ['profile', 'email'],
+      });
+
+      if (result.type === 'success') {
+        Alert.alert(`Logged with google, ${result.accessToken}`);
+      } else {
+        return { cancelled: true };
+      }
+    } catch (e) {
+      throw e;
     }
   }
 
