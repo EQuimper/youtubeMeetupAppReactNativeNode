@@ -26,21 +26,37 @@ class MeetupApi {
       const { data } = await axios.get(this.path);
       return data.meetups;
     } catch (e) {
-      console.log(e);
+      throw e;
     }
   }
 
   async createGroupMeetups(args) {
     try {
       const res = await axios.post(`${this.path}/new`, { ...args });
-      console.log(res);
       return res;
     } catch (e) {
-      console.log(e);
+      throw e;
     }
   }
 }
 
 export {
-  MeetupApi
+  MeetupApi,
 };
+
+class UserApi {
+  constructor() {
+    this.path = '/users';
+  }
+
+  async login(args) {
+    try {
+      const { data } = await axios.post(`${this.path}/auth0`, args);
+      return data;
+    } catch (e) {
+      throw e;
+    }
+  }
+}
+
+export const User = new UserApi();

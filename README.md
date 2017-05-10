@@ -14,6 +14,7 @@
 - [React-Native Elements](https://github.com/react-native-community/react-native-elements)
 - [Styled-Components](https://github.com/styled-components/styled-components)
 - [Facebook Dev](https://developers.facebook.com/)
+- [Google Apis Link](https://www.googleapis.com/userinfo/v2/me)
 
 ## Videos
 
@@ -30,6 +31,7 @@
 - [Part: 11](https://youtu.be/KZWLd7OwQF8)
 - [Part: 12](https://youtu.be/64Tmae3FtXg)
 - [Part: 13](https://youtu.be/1c70Q-MsK_w)
+- [Part: 14](https://youtu.be/sKMMlMj0g8U)
 
 ## Authentication
 

@@ -19,7 +19,7 @@ export default class AppNavigator extends Component {
       state: this.props.navigation,
     });
 
-    if (this.props.user.logged) {
+    if (this.props.user.isLogged) {
       return <Navigator navigation={navigation} />;
     }
 

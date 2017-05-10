@@ -50,3 +50,11 @@
 - Remove Debugger open
 - Create google app
 - Setup login google
+
+## Episode 14
+
+- Setup api.js for user
+- Setup actions and reducer for logging
+- Setup googleAuth in backend
+- Make the first log
+- Add loading screen
