@@ -58,3 +58,8 @@
 - Setup googleAuth in backend
 - Make the first log
 - Add loading screen
+
+## Episode 15
+
+- Add redux-persist
+- Correction of navigation

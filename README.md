@@ -32,6 +32,7 @@
 - [Part: 12](https://youtu.be/64Tmae3FtXg)
 - [Part: 13](https://youtu.be/1c70Q-MsK_w)
 - [Part: 14](https://youtu.be/sKMMlMj0g8U)
+- [Part: 15](https://youtu.be/SkvTUaTspGQ)
 
 ## Authentication
 
