@@ -13,7 +13,7 @@
     "@appandflow/touchable": "^1.0.0",
     "@expo/vector-icons": "~4.0.0",
     "axios": "^0.16.0",
-    "expo": "^16.0.0",
+    "expo": "^27.0.2",
     "moment": "^2.18.1",
     "react": "16.0.0-alpha.6",
     "react-native": "https://github.com/exponent/react-native/archive/sdk-16.0.0.tar.gz",
